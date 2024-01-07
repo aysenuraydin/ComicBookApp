@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Read Manga">
+    <meta name="keywords" content="Online manga oku, Türkçe manga, Ücretsiz manga okuma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ICE MANGA</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+
+    <!-- Google Awesome -->
+    <script src="https://kit.fontawesome.com/b4b46d6b25.js" crossorigin="anonymous"></script>
+    
+     <!-- Google Font -->
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+     rel="stylesheet">
+ 
+     <!-- Css Styles -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+     <link rel="stylesheet" href="css/main.css" type="text/css">
+     <style>      
+     </style>
+</head>
+<body>
+    <!-- Navbar begin -->
+    <nav class="navbar navbar-expand-lg bg-gif bg-primary navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+           <img width="45%" src="img/logo.png" alt="">
+         </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Anasayfa</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="categories.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kategoriler</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="categories.html">Novel</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Manhwa</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Romance</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Manhua</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Completed</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Manga</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Action</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Shonen</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Slice of Life</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item" href="categories.html">
+                        Tüm Kategoriler 
+                        <i  class="fa-solid fa-arrow-right"></i>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">İletişim</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="login.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="login.html">Giriş Yap <i class="fa-solid fa-user-plus"></i> </a></li>
+                  <li><a class="dropdown-item" href="signUp.html">Kayıt Ol <i class="fa-solid fa-right-to-bracket"></i> </a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Manga Ara" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Ara</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Carousel begin -->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+    
+      <!-- The slideshow/carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item items active">
+            <img src="img/ornek-banner-5.png" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item items ">
+            <img src="img/ornek-banner-6.jpg" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item items ">
+            <img src="img/ornek-banner-7.jpg" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item items">
+            <img src="img/ornek-banner-2.png" class="d-block" style="width:100%">
+          </div>
+        </div>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <!-- <span class="carousel-control-prev-icon"></span> -->
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <!-- <span class="carousel-control-next-icon"></span> -->
+        </button>
+      </div>
+    </div>
+    <!-- Carousel end -->
+    
+    <div class="order-manga  p-4 px-5 border text-primary-color">
+      <div class="container">
+      <div class="row justify-content-between align-items-center px-5">
+        <div class="section-title col fs-5 text-start">
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tüm Kategoriler</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Novel</a></li>
+              <li><a class="dropdown-item" href="#">Manhwa</a></li>
+              <li><a class="dropdown-item" href="#">Romance</a></li>
+              <li><a class="dropdown-item" href="#">Manhua</a></li>
+              <li><a class="dropdown-item" href="#">Completed</a></li>
+              <li><a class="dropdown-item" href="#">Manga</a></li>
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Shonen</a></li>
+              <li><a class="dropdown-item" href="#">Slice of Life</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-flex flex-row justify-content-end  align-items-center">
+            <div for="manga-order">
+              Sırala: 
+            </div>
+            <select class="form-select w-50 ms-4" aria-label="Default select example">
+          <option value="">En Çok Okunan</option>
+            <option value="">Popülerlik</option>
+              <option value="" selected>A-Z</option>
+              <option value="">En Sondan</option>
+              <option value="">Oylama</option>
+              <option value="" >Yeni</option>
+            </select>
+          </div>
+        </div>
+        </div>
+       </div>
+     </div>
+    <!-- Product Section Begin -->
+    <div class="container">
+        <div class="row mt-1" >
+         <!-- Manga Episodes Begin -->
+         <div class="col mt-4 px-3">
+            <!-- cards -->
+           <div class="row mt-5">
+             <div class="col-lg-3 col-md-4 col-6">
+               <div class="page-item-detail ">
+                 <div class="row px-2 m-2 align-items-center">
+                   <div class="col-4 col-sm-12">
+                     <img class="card-img"  src="img/ornek-manga-4.png" alt="Card image">
+                   </div>
+                   <div class="p-2 col-8 col-sm-12">
+                     <div>
+                       <div class="post-title font-title">
+                         <h3 class="fs-6 text-truncate">
+                            <a href="manga-details.html">Attack On Titan</a>
+                         </h3>
+                      </div>
+                      <div class="meta-item rating">
+                        <div class="post-total-rating allow_vote">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <span class="score font-meta fs-6 total_votes">4.4</span>
+                        </div>
+                      </div>
+                      <div class="list-chapter">
+                        <div class="chapter-item fs-6 m-1">
+                          <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                          <span class="badge bg-primary">
+                            New
+                          </span>
+                        </div>
+                        <div class="chapter-item fs-6  m-1">
+                          <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                          <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+            </div> 
+              <div class="col-lg-3 col-md-4 col-6">
+                 <div class="page-item-detail ">
+                   <div class="row px-2 m-2 align-items-center">
+                     <div class="col-4 col-sm-12">
+                       <img class="card-img"  src="img/ornek-manga-5.png" alt="Card image">
+                     </div>
+                     <div class="p-2 col-8 col-sm-12">
+                       <div>
+                         <div class="post-title font-title">
+                           <h3 class="fs-6 text-truncate">
+                              <a href="manga-details.html">Trash of the Counts Family</a>
+                           </h3>
+                        </div>
+                        <div class="meta-item rating">
+                          <div class="post-total-rating allow_vote">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="score font-meta fs-6 total_votes">4.7</span>
+                          </div>
+                        </div>
+                        <div class="list-chapter">
+                          <div class="chapter-item fs-6 m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                            <span class="badge bg-primary">
+                              New
+                            </span>
+                          </div>
+                          <div class="chapter-item fs-6  m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                            <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                          </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                 <div class="page-item-detail ">
+                   <div class="row px-2 m-2 align-items-center">
+                     <div class="col-4 col-sm-12">
+                       <img class="card-img"  src="img/ornek-manga-6.png" alt="Card image">
+                     </div>
+                     <div class="p-2 col-8 col-sm-12">
+                       <div>
+                         <div class="post-title font-title">
+                           <h3 class="fs-6 text-truncate">
+                              <a href="manga-details.html">Death Note</a>
+                           </h3>
+                        </div>
+                        <div class="meta-item rating">
+                          <div class="post-total-rating allow_vote">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="score font-meta fs-6 total_votes">4.9</span>
+                          </div>
+                        </div>
+                        <div class="list-chapter">
+                          <div class="chapter-item fs-6 m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                            <span class="badge bg-primary">
+                              New
+                            </span>
+                          </div>
+                          <div class="chapter-item fs-6  m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                            <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                          </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                 <div class="page-item-detail ">
+                   <div class="row px-2 m-2 align-items-center">
+                     <div class="col-4 col-sm-12">
+                       <img class="card-img"  src="img/ornek-manga-7.png" alt="Card image">
+                     </div>
+                     <div class="p-2 col-8 col-sm-12">
+                       <div>
+                         <div class="post-title font-title">
+                           <h3 class="fs-6 text-truncate">
+                              <a href="manga-details.html">One Piece</a>
+                           </h3>
+                        </div>
+                        <div class="meta-item rating">
+                          <div class="post-total-rating allow_vote">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            
+                            <span class="score font-meta fs-6 total_votes">4.3</span>
+                          </div>
+                        </div>
+                        <div class="list-chapter">
+                          <div class="chapter-item fs-6 m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                            <span class="badge bg-primary">
+                              New
+                            </span>
+                          </div>
+                          <div class="chapter-item fs-6  m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                            <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                          </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                 <div class="page-item-detail ">
+                   <div class="row px-2 m-2 align-items-center">
+                     <div class="col-4 col-sm-12">
+                       <img class="card-img"  src="img/ornek-manga-8.png" alt="Card image">
+                     </div>
+                     <div class="p-2 col-8 col-sm-12">
+                       <div>
+                         <div class="post-title font-title">
+                           <h3 class="fs-6 text-truncate">
+                              <a href="manga-details.html">Attack On Titan</a>
+                           </h3>
+                        </div>
+                        <div class="meta-item rating">
+                          <div class="post-total-rating allow_vote">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="score font-meta fs-6 total_votes">4.4</span>
+                          </div>
+                        </div>
+                        <div class="list-chapter">
+                          <div class="chapter-item fs-6 m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                            <span class="badge bg-primary">
+                              New
+                            </span>
+                          </div>
+                          <div class="chapter-item fs-6  m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                            <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                          </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                 <div class="page-item-detail ">
+                   <div class="row px-2 m-2 align-items-center">
+                     <div class="col-4 col-sm-12">
+                       <img class="card-img"  src="img/ornek-manga-22.png" alt="Card image">
+                     </div>
+                     <div class="p-2 col-8 col-sm-12">
+                       <div>
+                         <div class="post-title font-title">
+                           <h3 class="fs-6 text-truncate">
+                              <a href="manga-details.html">Naruto</a>
+                           </h3>
+                        </div>
+                        <div class="meta-item rating">
+                          <div class="post-total-rating allow_vote">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="score font-meta fs-6 total_votes">4.2</span>
+                          </div>
+                        </div>
+                        <div class="list-chapter">
+                          <div class="chapter-item fs-6 m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                            <span class="badge bg-primary">
+                              New
+                            </span>
+                          </div>
+                          <div class="chapter-item fs-6  m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                            <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                          </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                 <div class="page-item-detail ">
+                   <div class="row px-2 m-2 align-items-center">
+                     <div class="col-4 col-sm-12">
+                       <img class="card-img"  src="img/ornek-manga-24.png" alt="Card image">
+                     </div>
+                     <div class="p-2 col-8 col-sm-12">
+                       <div>
+                         <div class="post-title font-title">
+                           <h3 class="fs-6 text-truncate">
+                              <a href="manga-details.html">Solo Leveling</a>
+                           </h3>
+                        </div>
+                        <div class="meta-item rating">
+                          <div class="post-total-rating allow_vote">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="score font-meta fs-6 total_votes">4.5</span>
+                          </div>
+                        </div>
+                        <div class="list-chapter">
+                          <div class="chapter-item fs-6 m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                            <span class="badge bg-primary">
+                              New
+                            </span>
+                          </div>
+                          <div class="chapter-item fs-6  m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                            <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                          </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                 <div class="page-item-detail ">
+                   <div class="row px-2 m-2 align-items-center">
+                     <div class="col-4 col-sm-12">
+                       <img class="card-img"  src="img/ornek-manga-1.png" alt="Card image">
+                     </div>
+                     <div class="p-2 col-8 col-sm-12">
+                       <div>
+                         <div class="post-title font-title">
+                           <h3 class="fs-6 text-truncate">
+                              <a href="manga-details.html">Death Note</a>
+                           </h3>
+                        </div>
+                        <div class="meta-item rating">
+                          <div class="post-total-rating allow_vote">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="score font-meta fs-6 total_votes">4.7</span>
+                          </div>
+                        </div>
+                        <div class="list-chapter">
+                          <div class="chapter-item fs-6 m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                            <span class="badge bg-primary">
+                              New
+                            </span>
+                          </div>
+                          <div class="chapter-item fs-6  m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                            <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                          </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                 <div class="page-item-detail ">
+                   <div class="row px-2 m-2 align-items-center">
+                     <div class="col-4 col-sm-12">
+                       <img class="card-img"  src="img/ornek-manga-2.png" alt="Card image">
+                     </div>
+                     <div class="p-2 col-8 col-sm-12">
+                       <div>
+                         <div class="post-title font-title">
+                           <h3 class="fs-6 text-truncate">
+                              <a href="manga-details.html">One Piece</a>
+                           </h3>
+                        </div>
+                        <div class="meta-item rating">
+                          <div class="post-total-rating allow_vote">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="score font-meta fs-6 total_votes">4.8</span>
+                          </div>
+                        </div>
+                        <div class="list-chapter">
+                          <div class="chapter-item fs-6 m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                            <span class="badge bg-primary">
+                              New
+                            </span>
+                          </div>
+                          <div class="chapter-item fs-6  m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                            <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                          </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                 <div class="page-item-detail ">
+                   <div class="row px-2 m-2 align-items-center">
+                     <div class="col-4 col-sm-12">
+                       <img class="card-img"  src="img/ornek-manga-3.png" alt="Card image">
+                     </div>
+                     <div class="p-2 col-8 col-sm-12">
+                       <div>
+                         <div class="post-title font-title">
+                           <h3 class="fs-6 text-truncate">
+                              <a href="manga-details.html">Trash of the Counts Family</a>
+                           </h3>
+                        </div>
+                        <div class="meta-item rating">
+                          <div class="post-total-rating allow_vote">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="score font-meta fs-6 total_votes">4.5</span>
+                          </div>
+                        </div>
+                        <div class="list-chapter">
+                          <div class="chapter-item fs-6 m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                            <span class="badge bg-primary">
+                              New
+                            </span>
+                          </div>
+                          <div class="chapter-item fs-6  m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                            <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                          </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                 <div class="page-item-detail ">
+                   <div class="row px-2 m-2 align-items-center">
+                     <div class="col-4 col-sm-12">
+                       <img class="card-img"  src="img/ornek-manga-21.png" alt="Card image">
+                     </div>
+                     <div class="p-2 col-8 col-sm-12">
+                       <div>
+                         <div class="post-title font-title">
+                           <h3 class="fs-6 text-truncate">
+                              <a href="manga-details.html">The Beginning After The End</a>
+                           </h3>
+                        </div>
+                        <div class="meta-item rating">
+                          <div class="post-total-rating allow_vote">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="score font-meta fs-6 total_votes">4.7</span>
+                          </div>
+                        </div>
+                        <div class="list-chapter">
+                          <div class="chapter-item fs-6 m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                            <span class="badge bg-primary">
+                              New
+                            </span>
+                          </div>
+                          <div class="chapter-item fs-6  m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                            <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                          </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                 <div class="page-item-detail ">
+                   <div class="row px-2 m-2 align-items-center">
+                     <div class="col-4 col-sm-12">
+                       <img class="card-img"  src="img/ornek-manga-5.png" alt="Card image">
+                     </div>
+                     <div class="p-2 col-8 col-sm-12">
+                       <div>
+                         <div class="post-title font-title">
+                           <h3 class="fs-6 text-truncate">
+                              <a href="manga-details.html">Trash of the Counts Family</a>
+                           </h3>
+                        </div>
+                        <div class="meta-item rating">
+                          <div class="post-total-rating allow_vote">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="score font-meta fs-6 total_votes">4.4</span>
+                          </div>
+                        </div>
+                        <div class="list-chapter">
+                          <div class="chapter-item fs-6 m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 66</a>
+                            <span class="badge bg-primary">
+                              New
+                            </span>
+                          </div>
+                          <div class="chapter-item fs-6  m-1">
+                            <a href="manga-reading.html" class="btn btn-sm btn-outline-secondary fs-8" role="button" aria-disabled="true">Bölüm 65</a>
+                            <span class="post-on font-meta text-muted fs-8"> 3 gün önce </span>
+                          </div>
+                        </div>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Pagination Begin -->
+            <div aria-label="Page navigation example" class="container my-4">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true" class="color-secondary">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link color-secondary" href="#">1</a></li>
+                <li class="page-item"><a class="page-link color-secondary" href="#">2</a></li>
+                <li class="page-item"><a class="page-link color-secondary" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true" class="color-secondary">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Pagination End -->
+
+          </div>
+         </div>
+         <!-- Manga Episodes End -->
+        </div>
+    </div>
+    <!-- Product Section End -->
+
+   <!-- Footer Begin -->
+   <footer>
+    <div class="p-1 border">
+      <div class="container-fluid">
+        <div class=" mt-5 my-4">
+          <a href="mailto:aysenuraydin292@gmail.com" >
+            <i class=" rounded-pill bg-secondary fa-regular fa-envelope p-2 fs-4 text-light"></i>
+          </a>
+        </div>
+        <div class="tooltips mb-5" >
+          <span class="tooltiptexts text-light">
+              <i class="fa-solid fa-exclamation"></i>
+              Yasal Uyarı
+              <span class="tooltiptexts-after"></span>
+          </span>
+        </div>
+        <div class="px-5 text-secondary">
+          <p>
+            Bu sitedeki mangaları daha kolay okuyabilmeniz için türkçe paylaşmaya çalışıyoruz. Burada gördüğünüz mangalardan herhangi birini beğendiyseniz ve satışta mevcutsa, yayıncıyı desteklemek için satın almanızı rica ediyoruz. Herhangi bir konuda bizimle iletişime geçmek için sitemizdeki iletişim formundan ulaşabilirsiniz.
+          </p>
+        </div>
+        <div class="navbar navbar-expand navbar-light">
+          <div class="collapse navbar-collapse justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="categories.html">Kategoriler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">İletişim</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+  
+  <!-- Sticky Begin -->
+  <div class="go-to-top">
+    <i class="fa-solid fa-arrow-up p-3 m-2 text-light"></i>
+  </div>
+  <!-- Sticky End -->
+  
+  <script src="js/main.js"></script>
+  <!-- Js Plugins -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

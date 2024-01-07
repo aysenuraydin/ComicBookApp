@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Read Manga">
+    <meta name="keywords" content="Online manga oku, Türkçe manga, Ücretsiz manga okuma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ICE MANGA</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+
+    <!-- Google Awesome -->
+    <script src="https://kit.fontawesome.com/b4b46d6b25.js" crossorigin="anonymous"></script>
+    
+     <!-- Google Font -->
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+     rel="stylesheet">
+ 
+     <!-- Css Styles -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+     <link rel="stylesheet" href="css/main.css" type="text/css">
+     <style>      
+     </style>
+</head>
+<body>
+    <!-- Navbar begin -->
+    <nav class="navbar navbar-expand-lg bg-gif bg-primary navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+           <img width="45%" src="img/logo.png" alt="">
+         </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Anasayfa</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="categories.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kategoriler</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="categories.html">Novel</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Manhwa</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Romance</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Manhua</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Completed</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Manga</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Action</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Shonen</a></li>
+                  <li><a class="dropdown-item" href="categories.html">Slice of Life</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item" href="categories.html">
+                        Tüm Kategoriler 
+                        <i  class="fa-solid fa-arrow-right"></i>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">İletişim</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="login.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="login.html">Giriş Yap <i class="fa-solid fa-user-plus"></i> </a></li>
+                  <li><a class="dropdown-item" href="signUp.html">Kayıt Ol <i class="fa-solid fa-right-to-bracket"></i> </a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Manga Ara" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Ara</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- header-img Begin -->
+    <div class="header-img">
+      <img src="img/ornek-blog-7.jpg" class="object-fit-cover" style="width:100%">
+    </div>
+    <!-- header-img End -->
+    
+    <div class="order-manga  p-4 px-5 border text-primary-color">
+      <div class="container">
+      <div class="row justify-content-between align-items-center px-5">
+        <div class="section-title col text-start fs-5">
+            Blog | Manga İncelemeleri
+        </div>
+        <div class="col">
+          <div class="d-flex flex-row justify-content-end  align-items-center">
+            <div for="manga-order">
+              Sırala: 
+            </div>
+            <select class="form-select w-50 ms-4" aria-label="Default select example">
+          <option value="">En Çok Okunan</option>
+            <option value="">Popülerlik</option>
+              <option value="" selected>A-Z</option>
+              <option value="">En Sondan</option>
+              <option value="">Oylama</option>
+              <option value="" >Yeni</option>
+            </select>
+          </div>
+        </div>
+        </div>
+      </div>  
+    </div>
+    <!-- Blog Content Begin -->
+    <div class="container-lg text-dark">
+          <div class="row">
+            <div class="col-lg-9 col-md-12">
+              <div class="col-sm-12">
+                <h1 class="text-center mt-4 p-5 text-primary-color">Attack On Titan Anime-Manga İncelemesi</h1>
+              </div>
+              <!--content-->
+              <div class="col-sm-12 px-5">
+                <div class="blog-content my-4 px-3">
+                  <p class="text-justify">Hajime Isayama’nın manga serisinden uyarlanan Mappa anime dizisi Attack on Titan (Shingeki no Kyojin) 1-2-3-4. sezon özetleri, tanıtımı ve konusunu inceledik.</p>
+      
+                  <p class="text-justify">Hajime Isayama isimli Japon manga sanatçısının ilk olarak 2006 yılında çizmeye başladığı ve Magazine Grand Prix denilen dergiye başvurarak “Kaliteli Çalışma Ödülü” aldığı muhteşem hikayesidir.</p>
+                    
+                  <p class="text-justify">Titan’a Saldırı serisi Eylül 2009-Nisan 2021 tarihleri arasında Kodansha’nın Bessatsu shonen Magazine dergisinde 34 cilt halinde yayınlandı. Dört sezonluk anime filmi, OVA’ları, animeden uyarlanmış iki live-action filmi ve bir mini serisi bulunmaktadır.</p>
+                    
+                  <p class="text-justify">2013 yılında bir çok ünlü animenin yönetmenliğini yapan Tetsuro Araki tarafından yönetilmiş ve 3 sezonu Japon animasyon firması Wit Studio tarafından fantezi anime dizisi olarak yayınlanmıştır. Final sezonunda stüdyo değişikliği yapılarak Mappa ile çalışılmıştır.</p>
+                </div>
+                <img src="img/ornek-blog-1.jpg"  class="card-img m-2 rounded-4" alt="">
+                <div class="blog-content my-4 px-3">
+                  <h2>Attack On Titan/Shingeki No Kyojin Konusu</h2>
+                  <p class="text-justify"> 
+                    Serinin ilk sezonu oldukça klasik bir tarzda başlasa da ilerledikçe alacağınız tat sizi zirveye taşıyacaktır. Anime, evrenin 845. tarihinde geçiyor. Bundan 100 yıl önce Titan denilen devler, insanlara saldırmış ve insanlık yok olma tehlikesiyle karşı karşıya kalmıştır. Ardından devlerden korunmak için iç içe geçmiş üç yüksek sur inşa edilmiştir. Bu surların en içteki kraliyet ailesi ve soyluların yaşadığı Sina, ortada zenginlere ayrılan Rose ve en dışta fakir halkın kaldığı Maria surlarıdır.</p>
+      
+                    <p class="text-justify"> Kahramanımız Eren, Maria surları içinde kalan Shiganshina bölgesinde yaşamaktır. Bir gün arkadaşı Mikasa ile odun toplarken hiç beklemediği bir şey olur. Devler şehre saldırır ve surda gedik açarak katliama başlar. Annesi bir dev tarafından yenilen Eren, dostları Armin ve Mikasa ile birlikte faciadan sağ kalanlarla şehirden tahliye edilir.</p>
+                   
+                    <p class="text-justify"> Daha sonra birlikte orduya katılırlar. Eğitimleri tamamlandığında bir tercih yapmaları gerekmektedir. Askeri İnzibat denilen birlik; krallığı korumakla görevli saygın ve yüksek puan almış askerlerden seçilir, üniformalarında tek boynuzlu at simgesi vardır.</p>
+                </div>
+                <img src="img/ornek-blog-2.jpg"  class="card-img m-2 rounded-4" alt="">
+                <div class="blog-content my-4 px-3">
+                  <p class="text-justify">Garnizon birliği her sur önünde konuşlanmış, olası dev saldırısına karşı hazır bulunan askerlerden oluşur, onların simgesi iki gül motifidir. Keşif birliğinin görevi ise surların dışına çıkıp bölgeyi ve devleri araştırarak onlar üzerinde incelemeler yapmaktır, armaları iki kanattan oluşan Keşif birliği özgürlüğü sembolize etmektedir.</p>
+      
+                  <p class="text-justify">Eren dış dünyaya çok meraklı, özgürlüğüne düşkün ve devlerden intikam almaya yemin ettiğinden dolayı eğitiminin sonunda en büyük hayali olan Keşif birliğine katılmıştır.</p>
+                   
+                  <p class="text-justify">Seri ortaçağ dönemini anımsatan bir evrende geçtiği için teknoloji pek gelişmiş değildir ancak devleri öldürmek kolay olmadığından Keşif birliği mühendisleri tarafından icat edilen 3D Manevra Teçhizatı sayesinde hem hızlı hareket kabiliyeti hem de devleri öldürebilmek için enselerini kolayca kesebilme imkanı sunmuştur.</p>
+                   
+                  <p class="text-justify">Eren ve arkadaşları bir tatbikattayken aniden devler tekrar saldırmaya başlar ve devlerin çok başka özellikleri de ortaya çıkar. Akılsız ve içgüdüsel hareket ettiği sanılan devler yine insanlığın sonunu getirmek üzeredir.</p>
+                </div>
+                <img src="img/ornek-blog-3.jpg"  class="card-img m-2 rounded-4" alt="">
+                <div class="blog-content my-4 px-3">
+                  <h2>Attack on Titan 1. Sezon Özeti</h2>
+                  <p class="text-justify">845 yılında surlarla çevrili Paradise adasının Shiganshina bölgesinde surlar ardında yaşayan insanlar güvende olduklarını düşünmektedir. Fakat bir gün altmış metre uzunluğundaki muazzam devin surlarda açtığı gedik yüzünden yüz yıldır hiç görülmeyen devlerin istilasına uğrarlar.</p>
+      
+                    <p class="text-justify">Saldırı sırasında annesi gözlerinin önünde devler tarafından yenilen Eren ve arkadaşları muhafız birliğinden Hannes’in yardımıyla kaçarlar. Eren tüm devleri yok etmeye yemin edip annesinin intikamını almak için asker olmaya karar verir ve arkadaşları ile birlikte eğitime başlar.</p>
+                    
+                    <p class="text-justify">Eğitimin sonunda Surların dışına çıkabilen tek birlik olan Keşif Birliği’ne katılır. Tatbikat sırasında tekrar devlerin saldırısına uğradıklarında kendi hayatı hakkında çok büyük bir gerçeği öğrenir. Artık surların içinde çok farklı devler vardır. Eren ve Keşif Birliği devler hakkında her gün yeni bilgileri ortaya çıkarırlar.</p>
+                </div>
+                <img src="img/ornek-blog-4.jpg"  class="card-img m-2 rounded-4" alt="">
+                <div class="blog-content my-4 px-3">
+                  <h2>Attack on Titan 2. Sezon Özeti</h2>
+                  <p class="text-justify">Dev olduğu ortaya çıkan Eren, Keşif Birliği için savaşmaya devam ederken askeri birlikten arkadaşı olan Annie’nin de dev olduğu ortaya çıkmıştır.</p>
+                  <p class="text-justify">Keşif Birliği’nin zeki ve gözü pek komutanı Erwin sayesinde yapılan planlarla Dişi Dev olarak bilinen Annie’nin peşine düşülmüş fakat beklenmedik bir şey olmuş ve dişi dev kendini dondurmuştur. Annie ise surların ardındaki dünyanın Marley ülkesi için çalışan bir askerdir.</p>
+                  <p class="text-justify">Surlarda açılan delikte dev siması görülmesi üzerine olaylar daha karmaşık bir hal alır ve Sur Tarikatı denilen bir oluşum ortaya çıkar. Bu sırada çözülmesi gereken çok fazla sır vardır ve zırhlı dev ile muazzam devin de kimliği ifşa olmuştur.</p>
+                  <p class="text-justify">Eren’in peşine düşen titanlar onu kaçırırlar yine Erwin sayesinde Eren’i kurtarma operasyonu başlatılır ve çok fazla asker devler tarafından yenilir, Erwin sağ kolunu kaybeder. Eren titanlara dair yeni bir sırrı çözer.</p>
+                </div>
+                <img src="img/ornek-blog-5.jpg"  class="card-img m-2 rounded-4" alt="">
+                <div class="blog-content my-4 px-3">
+                  <h2>Attack on Titan 3. Sezon Özeti</h2>
+                  <p class="text-justify">Keşif Birliği askerleri Maria duvarlarını tekrar ele geçirmek ve Eren’in babasının bıraktığı anahtar ile bodrumda sakladığı sırları keşfetmek için yola çıkarlar. O sırada Reiner ve Berthold (Zırhlı Titan ve Muazzam Titan) duvarlardaki gedikleri kapatıp onları içeriye hapsederler.</p>
+                  <p class="text-justify">Yeniden ortaya çıkan Canavar Titan, Reiner ve Berthold Keşif Birliğine saldırır. Eren ve Reiner dövüşmeye başlar. Beklenmedik bir an da muazzam dev ortaya çıkar ve Armin’i ölesiye yaralar. Erwin askerlerini yüreklendirip canavar titanın üstüne gider, bir tek isteği vardır o da bodrumda saklanan sır!</p>
+                  <p class="text-justify">Bu sırada Erwin de ciddi yaralar alır. Erwin’in en sadık askeri ve can dostu Levi, zor bir karar vermek zorunda kalır. Sonunda bodrumun sırrı ortaya çıkar, surlar devlerden temizlenir ve Keşif Birliği okyanusu görür. Artık onları okyanus ötesindeki dünya beklemektedir.</p>
+                </div>
+                <img src="img/ornek-blog-6.jpg"  class="card-img m-2 rounded-4" alt="">
+                <div class="blog-content my-4 px-3">
+                  <h2>Attack on Titan 4.Sezon Özeti</h2>
+                  <p class="text-justify">Okyanus ardında başka insan toplumları olduğu öğrenilmiş ve bazıları ile karşılıklı çıkarlara dayanan iletişimlere girişilmiştir. Tamamen siyasi tema içeren dördüncü sezonda bizleri ters köşelere savurmaya devam etmektedir.</p>
+                  <p class="text-justify">Marley ülkesine sızan Eren planlarını hayata geçirmek için dostlarından yardım ister. Tek bir amacı vardır; yoldaşlarının özgür ve hiç kimseden korkmadan yaşamasıdır. Amacına ulaşmak için dünyayı hatta yoldaşlarını bile karşısına almayı göze alır.</p>  
+                  <p class="text-justify">Her sezonda hatta her bölümde bile izleyicinin heyecanını bir üst seviyeye taşıyan aksiyonu hiç bir zaman bitmeyen ters köşelerle saçıp savuran Dark Anime tarzındaki bu anime dizisini izlemezseniz çok şey kaçırırsınız.</p> 
+                  <p class="text-justify">4. sezon final kısmı Japonya’da 3 Mart’ta saat 00:25’de yayınlandı. Türkiye’de ise 4. Mart’ta saat 18:25 yayınlanıp Crunchyroll üzerinden izlendi.</p> 
+                  <p class="text-justify">Bu tarz içerikler ilginizi çekiyor ve anime seviyorsanız sitemizde yer alan “Dr. Stone Anime İncelemesi” adlı yazımıza da göz atabilirsiniz.</p>
+                  <p class="text-justify">Kaynak : https://thinpo.com/attack-on-titan-shingeki-no-kyojin-anime-incelemesi/</p>
+                </div>
+              </div>
+              <!-- Blog Tag Begin -->
+              <div class="col-sm-12 my-3">
+                <div class="col-12">
+                  <div class="blog__details__tags text-center">
+                    <a href="#" class="badge bg-primary m-1 p-2">Macera</a>
+                    <a href="#" class="badge bg-primary m-1 p-2">Gizem</a>
+                    <a href="#" class="badge bg-primary m-1 p-2">Aksiyon</a>
+                 </div>
+                </div>
+              </div>  
+              <!-- Blog Tag End -->  
+            </div>
+            <div class="col-lg-3 col-md-12 d-none d-lg-block my-4 p-3 px-5">
+              <!-- headers -->
+              <div class="tooltips my-5">
+                <span class="tooltiptexts">
+                  <i class="fa-solid fa-arrow-trend-up"></i>
+                  Populer Yazılar
+                  <span class="tooltiptexts-after"></span>
+                </span>
+              </div>
+              <!-- cards -->
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-1.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h4>Death Note</h4>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-2.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h4>One Piece</h4>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-3.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h5>Trash of Count Family</h5>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-4.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h5>Attack on Titan</h5>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                 <a href="blog-details.html">
+                   <img src="img/ornek-manga-5.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                   <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                     <h5>Trash of Count Family</h5>
+                     <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                   </div>
+                 </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                 <a href="blog-details.html">
+                   <img src="img/ornek-manga-6.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                   <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                     <h5>Death Note</h5>
+                     <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                   </div>
+                 </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-1.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h4>Death Note</h4>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-2.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h4>One Piece</h4>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-3.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h5>Trash of Count Family</h5>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-4.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h5>Attack on Titan</h5>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-5.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h5>Trash of Count Family</h5>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-6.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h5>Death Note</h5>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-2.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h4>One Piece</h4>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-3.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h5>Trash of Count Family</h5>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-4.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h5>Attack on Titan</h5>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 position-relative">
+                <a href="blog-details.html">
+                  <img src="img/ornek-manga-5.png"  class="card-img m-2 object-fit-cover rounded-4" alt="">
+                  <div class="carousel-caption position-absolute bottom-100 start-50 translate-middle">
+                    <h5>Trash of Count Family</h5>
+                    <p class="text-nowrap"><i class="fa-solid fa-calendar-days"></i>23.07.202</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+    <!-- Blog Content End -->
+
+    <!-- Blog Comment Begin -->
+    <div class="col-lg-9 col-md-12">
+        <!-- Emoji Bar Begin -->
+        <div class="d-flex flex-row justify-content-center  align-items-center text-center">
+          <div class="emoji p-3">
+            <div class="text-secondary fs-1">👍🏻</div>
+            <div class="text-secondary fs-7">37</div>
+            <div class="text-secondary fs-8">Beğendim</div>
+          </div>
+          <div class="emoji p-3">
+            <div class="text-secondary fs-1">😝</div>
+            <div class="text-secondary fs-7">28</div>
+            <div class="text-secondary fs-8">Eğlenceli</div>
+          </div>
+          <div class="emoji p-3">
+            <div class="text-secondary fs-1">😍</div>
+            <div class="text-secondary fs-7">112</div>
+            <div class="text-secondary fs-8">Bayıldım</div>
+          </div>
+          <div class="emoji p-3">
+            <div class="text-secondary fs-1">😮</div>
+            <div class="text-secondary fs-7">12</div>
+            <div class="text-secondary fs-8">Şoktayım</div>
+          </div>
+          <div class="emoji p-3">
+            <div class="text-secondary fs-1">😥</div>
+            <div class="text-secondary fs-7">1</div>
+            <div class="text-secondary fs-8">Üzücü</div>
+          </div>
+          <div class="emoji p-3">
+            <div class="text-secondary fs-1">😤</div>
+            <div class="text-secondary fs-7">2</div>
+            <div class="text-secondary fs-8">Kızdım</div>
+          </div>
+        </div>
+        <!-- Emoji Bar End -->
+        <div class="row border-bottom border-2 mx-2 my-5">
+          <div class="col color-secondary">
+            93 Yorum
+          </div>
+          <div class="col text-end color-secondary">
+            <i class="fa-solid fa-user"></i> Ayşenur AYDIN
+          </div>
+        </div>
+        <div class="row p-3 mt-3">
+          <div class="col-2 user-img text-end">
+            <img src="img/user.png" width="50px" class="rounded-circle">
+          </div>
+          <div class="col-10">
+            <div class="form-floating">
+              <textarea class="form-control" id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">Sen de yorum yap</label>
+            </div>
+            <div class="row mx-1 my-3 text-secondary">
+              <div class="col-3">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-paper-plane"></i>
+              </div>
+              <div class="col-9 text-end">
+                <a href="#" class="m-1 orderBy p-1 color-secondary active">En iyiler</a>
+                <a href="#" class="m-1 orderBy p-1 color-secondary">En yeniler</a>
+                <a href="#" class="m-1 orderBy p-1 color-secondary">En eskiler</a>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="row p-3 mt-3">
+          <div class="col-2 user-img text-end  my-2">
+            <img src="img/user.png" width="50px" class="rounded-circle">
+          </div>
+          <div class="col-10">
+             <div class="p-1"> @User2307</div>
+            <div class="border rounded p-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo enim atque consequatur qui facilis aliquam doloribus magnam nisi quos perferendis, quasi architecto suscipit, quas expedita.</p>
+            </div>
+            <div class="color-secondary d-inline-flex flex-row">
+             <div class="like px-2 m-1">
+               <i class="fa-solid fa-thumbs-up"></i>11
+             </div>
+             <div class="dislike px-2 m-1">
+               <i class="fa-solid fa-thumbs-down"></i> 3
+             </div>
+             <div class="reply px-2 m-1">
+               <i class="fa-solid fa-reply"></i> Yanıtla
+             </div>
+            </div>
+          </div>
+        </div> 
+        <div class="row p-3 mt-3">
+          <div class="col-2 user-img text-end  my-2">
+            <img src="img/user.png" width="50px" class="rounded-circle">
+          </div>
+          <div class="col-10">
+             <div class="p-1"> @User1221</div>
+            <div class="border rounded p-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo </p>
+            </div>
+            <div class="color-secondary d-inline-flex flex-row">
+             <div class="like px-2 m-1">
+               <i class="fa-solid fa-thumbs-up"></i>11
+             </div>
+             <div class="dislike px-2 m-1">
+               <i class="fa-solid fa-thumbs-down"></i> 3
+             </div>
+             <div class="reply px-2 m-1">
+               <i class="fa-solid fa-reply"></i> Yanıtla
+             </div>
+            </div>
+          </div>
+        </div> 
+        <div class="row p-3 mt-3">
+          <div class="col-2 user-img text-end  my-2">
+            <img src="img/user.png" width="50px" class="rounded-circle">
+          </div>
+          <div class="col-10">
+             <div class="p-1"> @User1997</div>
+            <div class="border rounded p-3">
+              <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+            <div class="color-secondary d-inline-flex flex-row">
+             <div class="like px-2 m-1">
+               <i class="fa-solid fa-thumbs-up"></i>11
+             </div>
+             <div class="dislike px-2 m-1">
+               <i class="fa-solid fa-thumbs-down"></i> 3
+             </div>
+             <div class="reply px-2 m-1">
+               <i class="fa-solid fa-reply"></i> Yanıtla
+             </div>
+            </div>
+          </div>
+        </div> 
+        <div class="row p-3 mt-3">
+          <div class="col-2 user-img text-end  my-2">
+            <img src="img/user.png" width="50px" class="rounded-circle">
+          </div>
+          <div class="col-10">
+             <div class="p-1"> @User2307</div>
+            <div class="border rounded p-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo enim atque consequatur qui facilis aliquam doloribus magnam.</p>
+            </div>
+            <div class="color-secondary d-inline-flex flex-row">
+             <div class="like px-2 m-1">
+               <i class="fa-solid fa-thumbs-up"></i>11
+             </div>
+             <div class="dislike px-2 m-1">
+               <i class="fa-solid fa-thumbs-down"></i> 3
+             </div>
+             <div class="reply px-2 m-1">
+               <i class="fa-solid fa-reply"></i> Yanıtla
+             </div>
+            </div>
+          </div>
+        </div> 
+    </div>
+    <!-- Blog Comment End -->
+  </div>
+
+   <!-- Footer Begin -->
+   <footer>
+    <div class="p-1 border">
+      <div class="container-fluid">
+        <div class=" mt-5 my-4">
+          <a href="mailto:aysenuraydin292@gmail.com" >
+            <i class=" rounded-pill bg-secondary fa-regular fa-envelope p-2 fs-4 text-light"></i>
+          </a>
+        </div>
+        <div class="tooltips mb-5" >
+          <span class="tooltiptexts text-light">
+              <i class="fa-solid fa-exclamation"></i>
+              Yasal Uyarı
+              <span class="tooltiptexts-after"></span>
+          </span>
+        </div>
+        <div class="px-5 text-secondary">
+          <p>
+            Bu sitedeki mangaları daha kolay okuyabilmeniz için türkçe paylaşmaya çalışıyoruz. Burada gördüğünüz mangalardan herhangi birini beğendiyseniz ve satışta mevcutsa, yayıncıyı desteklemek için satın almanızı rica ediyoruz. Herhangi bir konuda bizimle iletişime geçmek için sitemizdeki iletişim formundan ulaşabilirsiniz.
+          </p>
+        </div>
+        <div class="navbar navbar-expand navbar-light">
+          <div class="collapse navbar-collapse justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="categories.html">Kategoriler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">İletişim</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+  
+  <!-- Sticky Begin -->
+  <div class="go-to-top">
+    <i class="fa-solid fa-arrow-up p-3 m-2 text-light"></i>
+  </div>
+  <!-- Sticky End -->
+  
+  <script src="js/main.js"></script>
+  <!-- Js Plugins -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
