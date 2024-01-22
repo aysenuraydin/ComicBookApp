@@ -14,6 +14,10 @@ body {
   font-family: "Roboto", sans-serif;
   margin-top: 80px; }
 
+.bg-dark{
+  background-color: #000000 !important;
+  color: white !important;
+}
 .badge {
   font-size: 10px !important;
   background-color: #537afa !important; }
